@@ -14,7 +14,7 @@ FROM alpine
  RUN apk add openssl-dev
 
 ENV php \
-"php-7.0.10"
+"php-7.0.11"
 
 ENV pthreads \
 "pthreads-3.1.6"
