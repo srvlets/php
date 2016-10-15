@@ -222,7 +222,7 @@ WORKDIR \
 RUN rm -rf \
 "/src"
 
-RUN apk add ca-certificates
+RUN apk del ca-certificates
 RUN apk del openssl
 RUN apk del openssl-dev
 RUN apk del autoconf
