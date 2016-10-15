@@ -22,7 +22,7 @@ RUN mkdir \
 # php
 
 ENV php \
-"7.0.11"
+"7.0.12"
 
 RUN wget \
 "https://php.net/get/php-${php}.tar.xz/from/this/mirror" -O \
